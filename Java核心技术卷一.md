@@ -309,3 +309,9 @@ Java 还提供了两个用于表示 π 和 e 常量的近似值：
 > import static java.lang.Math.*;
 >
 > 此处为静态导入
+
+### 3.5.2 数值类型之间的转换
+
+数值类型经常需要发生转变：
+
+![image-20210625112531020](https://raw.githubusercontent.com/crie12138/JavaI_note/main/images/Snipaste_2021-06-25_17-20-57.png)
