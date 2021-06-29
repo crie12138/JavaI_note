@@ -301,7 +301,8 @@ Boolean(布尔)类型有两个值: true 和 false，用于进行逻辑条件判�
 在Math类中，包含了各种各样的数学函数。
 
 > 1. 计算数值的平方根，使用sqrt方法
-> ![image-20210625112531020](https://raw.githubusercontent.com/crie12138/JavaI_note/main/images/Snipaste_2021-06-25_17-08-23.png)
+>
+>   ![image-20210625112531020](https://raw.githubusercontent.com/crie12138/JavaI_note/main/images/Snipaste_2021-06-25_17-08-23.png)
 >
 >
 > 2. 计算幂运算，使用pow方法
