@@ -1,3 +1,5 @@
+
+
 # Java程序概述
 
 ## 1.1 Java程序设计平台
@@ -609,3 +611,34 @@ null是String变量可以存放的一个特殊值，表示目前没有任何对�
 >
 > 输入浮点数使用nextDouble。
 
+![](https://raw.githubusercontent.com/crie12138/JavaI_note/main/images/Snipaste_2021-07-05_21-31-31.png)
+
+
+
+### 3.7.2 格式化输出
+
+> System.out.print("%8.2f", x);
+>
+> 输出的是8个字符宽度且小数点后两位
+>
+> 如： 1234.56 就是一个空格和7个字符
+
+也可以是多个参数的输出：
+
+> System.out.printf("Hello, %s. Next year, you'll be %d", name, age);
+
+![](https://raw.githubusercontent.com/crie12138/JavaI_note/main/images/Snipaste_2021-07-05_21-37-43.png)
+
+![](https://raw.githubusercontent.com/crie12138/JavaI_note/main/images/Snipaste_2021-07-05_21-42-49.png)
+
+
+
+
+
+日期时间：
+
+> System.out.printf("%tc", new Date() ) ;
+
+![](https://raw.githubusercontent.com/crie12138/JavaI_note/main/images/Snipaste_2021-07-05_21-43-05.png)
+
+![](https://raw.githubusercontent.com/crie12138/JavaI_note/main/images/Snipaste_2021-07-05_21-43-16.png)
