@@ -642,3 +642,118 @@ null是String变量可以存放的一个特殊值，表示目前没有任何对�
 ![](https://raw.githubusercontent.com/crie12138/JavaI_note/main/images/Snipaste_2021-07-05_21-43-05.png)
 
 ![](https://raw.githubusercontent.com/crie12138/JavaI_note/main/images/Snipaste_2021-07-05_21-43-16.png)
+
+
+
+### 3.7.3 文件输入输出
+
+- 读取文件，存在反斜杠时，加一条反斜杠  \\ --> \\\
+
+  `Scanner in = new Scanner(Paths.get("myfile.txt"), "UTF-8");`
+
+- 写入文件
+
+  `PrintWriter out = new PrintWriter("myfile.txt", "UTF-8");`
+
+
+
+## 3.8 控制流程
+
+### 3.8.1 块作用域
+
+不能在嵌套的两个块中声明同名的变量
+
+
+
+### 3.8.2 条件语句
+
+应该使用**块语句**
+
+`if (yourSales >= target){`
+
+​	`performance = "Satisfactory";`
+
+​	`	bonus = 100;`
+
+`}`
+
+
+
+出现if ，else的情况
+
+`if (yourSales >= target){`
+
+​	`performance = "Satisfactory";`
+
+​	`	bonus = 100;`
+
+`}`
+
+`else{`
+
+​	`performance = "Unsatisfactory;"`
+
+​	`bonus = 0;`
+
+`}`
+
+也可以直接使用 **else if**
+
+
+
+### 3.8.3 循环
+
+1. **while** 循环 `while(condition) statement `
+
+如果开始的循环条件值就是false，那while循环体就将一次也不执行
+
+![](https://raw.githubusercontent.com/crie12138/JavaI_note/main/images/Snipaste_2021-07-07_11-41-53.png)
+
+
+
+2. **do/while** 循环 `do statement while(condition)`
+
+可以让循环体至少执行一次
+
+![](https://raw.githubusercontent.com/crie12138/JavaI_note/main/images/Snipaste_2021-07-07_11-46-46.png)
+
+
+
+### 3.8.4 确定循环
+
+使用**for**循环 `for(int i = 0; i <= 10; i++){statement}`
+
+**for循环是while循环的一种简化形式**
+
+![](https://raw.githubusercontent.com/crie12138/JavaI_note/main/images/Snipaste_2021-07-07_11-46-57.png)
+
+
+
+### 3.8.5 多重选择：switch语句
+
+`switch(choice){`
+
+​	`case 1:`
+
+​		`...`
+
+​		`break;`
+
+​	`case 2:`
+
+​		`...`
+
+​		`	break;`
+
+​	`default:`
+
+​		`...`
+
+​		`break;`
+
+`}`
+
+![](https://raw.githubusercontent.com/crie12138/JavaI_note/main/images/Snipaste_2021-07-07_11-57-07.png)
+
+case 后跟随的标签可以是：
+
