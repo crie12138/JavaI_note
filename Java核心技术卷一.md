@@ -757,3 +757,49 @@ null是String变量可以存放的一个特殊值，表示目前没有任何对�
 
 case 后跟随的标签可以是：
 
+- char、byte、short、int的常量表达式
+- 枚举常量
+- 字符串字面量 `case "yes":`
+
+
+
+### 3.8.6 中断控制流程语句
+
+java保留了goto，但是不用。
+
+使用break进行中断。
+
+continue 越过当前循环体的剩余部分，立刻跳到循环首部。
+
+
+
+## 3.9 大数值
+
+在java.math包中有两个类：BigInteger和BigDecimal。
+
+BigDecimal实现任意精度的浮点数计算。
+
+> 普通数值转为大数值：
+>
+> `BigInteger a = BigInteger.valueOf(100);`
+
+**不用+、-，只能使用大数值类中的add和multiply方法。**
+
+
+
+## 3.10 数组
+
+数组是一种数据结构， 用来存储同一类型值的集合。a[i]
+
+> 声明数组：
+>
+> - 不初始化：int[] a;   int a[];
+> - 初始化：int[] a = new int[100]
+> - 不要求数组长度为常量，也可以写成 new int[n]
+
+int型初始化为0，Boolean型初始化为false， String型初始化为null
+
+
+
+### 3.10.1 for each循环
+
